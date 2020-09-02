@@ -1,0 +1,6 @@
+[submodule "x-spreadsheet"]
+	path = x-spreadsheet
+	url = https://github.com/myliang/x-spreadsheet.git
+[submodule "sheetjs"]
+	path = sheetjs
+	url = https://github.com/SheetJS/sheetjs

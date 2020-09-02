@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>x-spreadsheet</title>
+	<link rel="stylesheet" href="x-spreadsheet/dist/xspreadsheet.css">
+	<script src="x-spreadsheet/dist/xspreadsheet.js"></script>
+	<script src="sheetjs/dist/xlsx.full.min.js"></script>
+	<script src="x-spreadsheet-file.js"></script>
+	<style>
+#xspreadsheet {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+	</style>
+</head>
+<body>
+	<div id="xspreadsheet"></div>
+	<script>
+		var xs = x_spreadsheet('#xspreadsheet');
+		x_spreadsheet_file(xs);
+	</script>
+</body>
+</html>
